@@ -16,4 +16,4 @@ My vim configuration files and plugins
 + vim-gitgutter (https://github.com/airblade/vim-gitgutter)
     - `:source %`
 
-Finally `runPlugInstall`
+Finally run `PluginInstall`
