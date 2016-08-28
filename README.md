@@ -1,6 +1,8 @@
 # vim-config
 My vim configuration files and plugins
 
+`git clone https://github.com/jimouris/vim-config ~/.vim`
+`ln -s ~/.vim/vimrc ~/.vimrc`
 `cd ~/.vim/bundle`
 
 ### Packages:
@@ -25,8 +27,7 @@ My vim configuration files and plugins
 + [vim-gitgutter][7]
     - `git clone https://github.com/airblade/vim-gitgutter.git`
 
-Finally run:
-    - `cp vimrc ~/.vimrc && vim`
+Finally open vim and run:
     - `:source %`
     - `:PluginInstall`
 
