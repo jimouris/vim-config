@@ -18,14 +18,17 @@ My vim configuration files and plugins
     - `sudo apt-get install python-dev python3-dev`
     - `cd ~/.vim/bundle/YouCompleteMe`
     - `./install.py --clang-completer`
+    - `cd ..`
 + [vim-fugitive][6]
     - `git clone https://github.com/tpope/vim-fugitive.git`
     - `vim -u NONE -c "helptags vim-fugitive/doc" -c q`
 + [vim-gitgutter][7]
     - `git clone https://github.com/airblade/vim-gitgutter.git`
-    - `:source %`
 
-Finally run `:PluginInstall`
+Finally run:
+    - `cp vimrc ~/.vimrc && vim`
+    - `:source %`
+    - `:PluginInstall`
 
 [1]: https://github.com/VundleVim/Vundle.vim
 [2]: https://github.com/vim-airline/vim-airline
