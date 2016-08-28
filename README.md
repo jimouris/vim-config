@@ -1,9 +1,11 @@
 # vim-config
 My vim configuration files and plugins
 
-`git clone https://github.com/jimouris/vim-config ~/.vim`
-`ln -s ~/.vim/vimrc ~/.vimrc`
-`cd ~/.vim/bundle`
+First clone the repository: `git clone https://github.com/jimouris/vim-config ~/.vim`
+
+create a softlink for .vimrc: `ln -s ~/.vim/vimrc ~/.vimrc`
+
+and enter the directory to install required packages: `cd ~/.vim/bundle`
 
 ### Packages:
 + [Vundle][1]
