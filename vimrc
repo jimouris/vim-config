@@ -2,6 +2,7 @@ set laststatus=2
 set t_Co=256
 set number
 set mouse=a
+set linebreak
 syntax on
 set nocompatible              " be iMproved, required
 filetype off                  " required
