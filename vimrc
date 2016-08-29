@@ -45,7 +45,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " End of Nerd Tree conf
 
 " Start of YCM conf
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/ycm_extra_conf.py' 
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/ycm_extra_conf.py' 
 let g:ycm_confirm_extra_conf = 0
 " End of YCM conf
 "
