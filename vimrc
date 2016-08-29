@@ -1,6 +1,7 @@
 set laststatus=2
 set t_Co=256
 set number
+set mouse=a
 syntax on
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -40,4 +41,10 @@ autocmd VimEnter * wincmd p
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-" End of Nerd Tree conf 
+" End of Nerd Tree conf
+
+" Start of YCM conf
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/ycm_extra_conf.py' 
+let g:ycm_confirm_extra_conf = 0
+" End of YCM conf
+"
