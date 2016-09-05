@@ -30,8 +30,8 @@ and enter the directory to install required packages: `cd ~/.vim/bundle`
     - `git clone https://github.com/airblade/vim-gitgutter.git`
 
 #### Finally open vim and run:
-    `:source %`
-    `:PluginInstall`
+    :source %
+    :PluginInstall
 
 [1]: https://github.com/VundleVim/Vundle.vim
 [2]: https://github.com/vim-airline/vim-airline
