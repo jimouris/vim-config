@@ -18,6 +18,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'lervag/vimtex'
 call vundle#end()
 " End of Plugins
 
