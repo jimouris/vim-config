@@ -9,25 +9,25 @@ and enter the directory to install required packages: `cd ~/.vim/bundle`
 
 ### Packages:
 + [Vundle][1]
-    - `git clone https://github.com/VundleVim/Vundle.vim.git`
+    <!--- `git clone https://github.com/VundleVim/Vundle.vim.git`-->
 + [vim-airline][2]
-    - `git clone https://github.com/vim-airline/vim-airline.git`
+    <!--- `git clone https://github.com/vim-airline/vim-airline.git`-->
 + [vim-airline-themes][3]
-    - `git clone https://github.com/vim-airline/vim-airline-themes`
+    <!--- `git clone https://github.com/vim-airline/vim-airline-themes`-->
 + [Nerdtree][4]
-    - `git clone https://github.com/scrooloose/nerdtree.git`
+    <!--- `git clone https://github.com/scrooloose/nerdtree.git`-->
 + [YouCompleteMe][5]
-    - `git clone https://github.com/Valloric/YouCompleteMe.git`
+    <!--- `git clone https://github.com/Valloric/YouCompleteMe.git`-->
     - `sudo apt-get install build-essential cmake`
     - `sudo apt-get install python-dev python3-dev`
     - `cd ~/.vim/bundle/YouCompleteMe`
     - `./install.py --clang-completer`
     - `cd ..`
 + [vim-fugitive][6]
-    - `git clone https://github.com/tpope/vim-fugitive.git`
+    <!--- `git clone https://github.com/tpope/vim-fugitive.git`-->
     - `vim -u NONE -c "helptags vim-fugitive/doc" -c q`
 + [vim-gitgutter][7]
-    - `git clone https://github.com/airblade/vim-gitgutter.git`
+    <!--- `git clone https://github.com/airblade/vim-gitgutter.git`-->
 
 #### Finally open vim and run:
     :source %
