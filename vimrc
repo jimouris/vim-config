@@ -6,6 +6,7 @@ set linebreak
 syntax on
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set hlsearch
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
