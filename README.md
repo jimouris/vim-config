@@ -22,6 +22,8 @@ and enter the directory to install required packages: `cd ~/.vim/bundle`
 + [vim-fugitive][6]
     - `vim -u NONE -c "helptags vim-fugitive/doc" -c q`
 + [vim-gitgutter][7]
++ [Ack Vim][8]
++ [Nerd commenter][9]
 
 #### Finally open vim and run:
     :source %
@@ -34,3 +36,6 @@ and enter the directory to install required packages: `cd ~/.vim/bundle`
 [5]: https://github.com/Valloric/YouCompleteMe
 [6]: https://github.com/tpope/vim-fugitive
 [7]: https://github.com/airblade/vim-gitgutter
+[8]: https://github.com/mileszs/ack.vim
+[9]: https://github.com/scrooloose/nerdcommenter
+

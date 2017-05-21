@@ -20,6 +20,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'reedes/vim-wordy'
+Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdcommenter'
 call vundle#end()
 " End of Plugins
