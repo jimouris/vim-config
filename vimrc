@@ -20,6 +20,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'reedes/vim-wordy'
+Plugin 'scrooloose/nerdcommenter'
 call vundle#end()
 " End of Plugins
 
@@ -50,4 +51,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/ycm_extra_conf.py' 
 let g:ycm_confirm_extra_conf = 0
 " End of YCM conf
-"
+
+"Nerdcommenter"
+filetype plugin on
+let mapleader=","
+set timeout timeoutlen=1500
+
+
