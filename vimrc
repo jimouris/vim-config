@@ -38,6 +38,7 @@ set expandtab
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'bubblegum'
 colorscheme monokain
+highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
 " End of Theme options "
 
 " Start of Nerd Tree conf 
