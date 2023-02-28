@@ -11,18 +11,17 @@ set hlsearch
 set rtp+=~/.vim/bundle/Vundle.vim
 
 " Start of Plugins
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
-Plugin 'reedes/vim-wordy'
-Plugin 'mileszs/ack.vim'
-Plugin 'scrooloose/nerdcommenter'
-call vundle#end()
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'reedes/vim-wordy'
+Plug 'mileszs/ack.vim'
+Plug 'scrooloose/nerdcommenter'
+call plug#end()
 " End of Plugins
 
 filetype plugin indent on    " required

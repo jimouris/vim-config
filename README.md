@@ -1,15 +1,18 @@
 # vim-config
 My vim configuration files and plugins
 
-First clone the repository: `git clone https://github.com/jimouris/vim-config ~/.vim`
 
-create a softlink for .vimrc: `ln -s ~/.vim/vimrc ~/.vimrc`
+```sh
+git clone git@github.com:jimouris/vim-config.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
-and enter the directory to install required packages: `cd ~/.vim/bundle`
+#### Finally open vim and run:
+`:PlugInstall`
 
 ### Packages:
-+ [Vundle][1]
-    - `git clone https://github.com/VundleVim/Vundle.vim.git`
 + [vim-airline][2]
 + [vim-airline-themes][3]
 + [Nerdtree][4]
@@ -25,11 +28,6 @@ and enter the directory to install required packages: `cd ~/.vim/bundle`
 + [Ack Vim][8]
 + [Nerd commenter][9]
 
-#### Finally open vim and run:
-    :source %
-    :PluginInstall
-
-[1]: https://github.com/VundleVim/Vundle.vim
 [2]: https://github.com/vim-airline/vim-airline
 [3]: https://github.com/vim-airline/vim-airline-themes
 [4]: https://github.com/scrooloose/nerdtree
